@@ -1,27 +1,10 @@
-﻿
-
-
-using AdventOfCode.Day1;
-
-//List<string> fodas = new List<string>()
-//{
-//            "1abc2",
-//            "pqr3stu8vwx",
-//            "a1b2c3d4e5f",
-//            "treb7uchet"
-//};
-
-//Console.WriteLine(fodas.First());
-
-
-CalibrationValues fodas = new();
+﻿using AdventOfCode.Day1;
 
 
 
-
-
-
-
-
-
+CalibrationValues fodas = new("C:\\Users\\Usuário\\Documents\\projetos\\AdventOfCode-2023\\AdventOfCode\\Day1\\exemplo2.txt");
+//fodas.teste();
+//fodas.teste2();
+fodas.teste3();
+//Console.WriteLine(fodas.CalibrationValue(true));
 
